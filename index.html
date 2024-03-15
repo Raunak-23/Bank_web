@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: white;
+            color: black;
+            font-family: 'Open sans', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+            height: 86px;
+            background-color: rgba(255, 255, 255, 1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            align-items: flex-end;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 25px;
+            margin-block-start: auto;
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .right {
+            font-weight: 700;
+            font-size: 20px;
+            align-items: flex-end;
+            margin-bottom: 15px;
+            margin-block-start: auto;
+            margin-right: 2%;
+        }
+
+        .left {
+            align-items: flex-end;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            /*margin: 23px 0;*/
+        }
+
+        .firstSection div {
+            width: 50%;
+        }
+
+        .leftSection {
+            background-color: white;
+            margin-top: 1%;
+            margin-left: 2%;
+            width: 30%;
+        }
+
+        .leftSection ul li {
+            margin-left: 3%;
+            list-style: none;
+            margin: 25px;
+        }
+
+        .rightsection {
+            background-color: rgb(52, 73, 193);
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="right">Logo</div>
+            <div class="centre">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Blog</li>
+                    <li>Offers</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+            <div class="left">
+                <ul>
+                    <li>
+                        <img src="Bank_web\search icon.png" ,alt="search">
+                    </li>
+                    <li>
+                        <img src="Bank_web\notification.png" alt="notification">
+                    </li>
+                    <li>
+                        <img src="Bank_web\account.png" alt="account">
+                    </li>
+                </ul>
+            </div>
+            <hr>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <img src="Bank_web\back.png" , height="30px" ,width="30px">
+                <ul>
+                    <li><img src="Bank_web\dashboard.png" , height="24px" ,width="24px">My Dashboard</li>
+                    <li><img src="Bank_web\link.png" , height="24px" ,width="24px">TOTM links</li>
+                    <li><img src="Bank_web\summary.png" , height="24px" ,width="24px">Daily Summary</li>
+                    <li><img src="Bank_web\details.png" , height="24px" ,width="24px">Bank Details</li>
+                </ul>
+            </div>
+            <div class="rightSection">
+                right
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
